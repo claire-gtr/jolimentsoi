@@ -1,7 +1,6 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+#main-banner {
+  background-color: #dedede;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -9,9 +8,125 @@
   p {
     margin-top: 1.5em;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
 }
+
+.main-banner-description {
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+#second-banner {
+  background-color: white;
+  color: $pink;
+  font-weight: 400;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 20px 10px 20px;
+}
+
+.welcome {
+  text-align: center;
+    p {
+      padding: 10px;
+      color: grey;
+      font-weight: 300;
+    }
+}
+
+.title-banner {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  height: 100px;
+  color: $pink;
+    }
+
+#third-banner {
+  background-color: white;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.card-image img {
+  height: 150px;
+  border-radius: 4px;
+}
+
+.card-title {
+    h5 {
+      font-size: 36px;
+      font-weight: lighter;
+      letter-spacing: 4px;
+    }
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card-description {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+#fourth-banner {
+  background-color: #dedede;
+  height: 150vh;
+  padding : 10px;
+}
+
+#fifth-banner {
+  background-color: white;
+  padding: 30px 20px 10px 20px;
+
+    p {
+      color: grey;
+    }
+}
+
+.photo-emilie {
+  border-radius: 4px;
+  height: 400px;
+  text-align: center;
+}
+
+#sixth-banner {
+  background-color: white;
+  padding: 50px 20px 50px 20px;
+    i {
+      font-size: 50px;
+    }
+}
+
+.sixth-banner-links {
+  height: 70px;
+  padding: 15px;
+}
+.sixth-banner-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.sixth-banner-links a:hover {
+  opacity: 1;
+}
+
+

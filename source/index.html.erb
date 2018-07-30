@@ -1,15 +1,164 @@
----
-title: Le Wagon - Middleman
----
+<div class="navbar-wagon navbar-fixed-top">
+  <!-- Logo -->
+  <div class="navbar-logos">
+    <div class="navbar-logo">
+      <a href="https://www.facebook.com/jolimentsoi/", target="_blank">JOLIMENT SOI</a>
+    </div>
+  </div>
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <div class="navbar-tabs">
+      <a href="https://www.facebook.com/jolimentsoi/", target="_blank", class="navbar-wagon-item navbar-wagon-link">ACCUEIL</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="https://www.facebook.com/jolimentsoi/", target="_blank", class="navbar-wagon-item navbar-wagon-link">PRESTATIONS</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="https://www.facebook.com/jolimentsoi/", target="_blank", class="navbar-wagon-item navbar-wagon-link">TARIFS</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="https://www.facebook.com/jolimentsoi/", target="_blank", class="navbar-wagon-item navbar-wagon-link">À PROPOS</a>
+    </div>
+    <div class="navbar-tabs">
+      <a href="https://www.facebook.com/jolimentsoi/", target="_blank", class="navbar-wagon-item navbar-wagon-link">CONTACT</a>
+    </div>
+
+</div>
+
+  <!-- Dropdown list appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="https://www.facebook.com/jolimentsoi/", target="_blank", "navbar-wagon-item navbar-wagon-link">Accueil</a></li>
+        <li><a href="https://www.facebook.com/jolimentsoi/", target="_blank", "navbar-wagon-item navbar-wagon-link">Prestations</a></li>
+         <li><a href="https://www.facebook.com/jolimentsoi/", target="_blank", "navbar-wagon-item navbar-wagon-link">Tarifs</a></li>
+        <li><a href="https://www.facebook.com/jolimentsoi/", target="_blank", "navbar-wagon-item navbar-wagon-link">À propos</a></li>
+        <li><a href="https://www.facebook.com/jolimentsoi/", target="_blank", "navbar-wagon-item navbar-wagon-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="main-banner">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 main-banner-description">
+    Esthéticienne qualifiée à domicile dans la région d'Auray et de Vannes
+    </div>
+    <div class="col-xs-12 col-sm-6 main-banner-image">Image
+    </div>
+  </div>
+</div>
+
+<div id="second-banner">
+  <div class="welcome">
+    <div class="title-banner">
+    Joliment Soi
+    </div>
+    <p>Emilie a crée Joliment Soi en 2017. Il s'agit d'un service d'esthéticienne à domicile sur les régions de Vannes et Auray. Il est toujours temps de prendre soin de soi. Prestations sur rendez-vous à domicile ou dans votre espace bien-être.</p>
+  </div>
+</div>
+
+<div id="third-banner">
+
+  <div class="title-banner text-center">
+    Les prestations
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag 'legs.png' %>
+          </div>
+          <div class="card-title">
+            <h5>Épilation</h5>
+          </div>
+          <div class="card-description">
+            <p>Joliment Soi vous propose un service d'épilation à la cire chaude pour le visage et le corps.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag 'massage.png' %>
+          </div>
+          <div class="card-title">
+            <h5>Massages</h5>
+          </div>
+          <div class="card-description">
+            <p>Joliment Soi vous propose un service d'épilation à la cire chaude pour le visage et le corps.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-2 col-md-4">
+        <div class="card">
+          <div class="card-image">
+            <%= image_tag 'makeup.png' %>
+          </div>
+          <div class="card-title">
+            <h5>Maquillage</h5>
+          </div>
+          <div class="card-description">
+            <p>Joliment Soi vous propose un service d'épilation à la cire chaude pour le visage et le corps.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="fourth-banner">
+   <div class="title-banner text-center">
+    Les tarifs
+  </div>
+</div>
+
+<div id="fifth-banner">
+   <div class="title-banner text-center">
+    À propos
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 photo-emilie">
+      <%= image_tag 'emiliebis.png', class: "photo-emilie" %>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="sixth-banner">
+   <div class="row title-banner text-center">
+    Suivez-moi sur les réseaux !
+    </div>
+    <div class="row sixth-banner-links">
+      <div class="col-xs-1 col-xs-offset-3 col-md-1 col-md-offset-5">
+        <a href="https://www.instagram.com/jolimentsoi/", target="_blank"><i class="fa fa-instagram"></i></a>
+      </div>
+
+      <div class="col-xs-1 col-xs-offset-2 col-md-1 col-md-offset-1">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+      </div>
+    </div>
+</div>
+
+<div class="footer">
+  <div class="footer-item">
+    Émilie Le Goueff <br> <a href="tel:+33635498009">06 35 49 80 09</a>
+  </div>
+  <div class="footer-item">
+    136 Route de Roguedas <br> 56610 Arradon
   </div>
 </div>

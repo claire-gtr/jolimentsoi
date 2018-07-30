@@ -1,26 +1,41 @@
 /* Main navbar */
 .navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background-color: light-gray;
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  text-decoration: none;
+}
+
+.navbar-wagon.scrolled {
+  background-color: white;
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
+.navbar-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  a {
+  color: $pink;
+  margin: 20px;
+  }
+  a:hover {
+    color: black;
+  }
 }
 
 /* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
+
 
 /* Right section */
 .navbar-wagon-right {
@@ -33,15 +48,27 @@
 .navbar-wagon-item {
   cursor: pointer;
   padding: 0 20px;
+  letter-spacing: 4px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.navbar-tabs {
+  text-decoration: none;
+}
+.navbar-tabs:hover {
+  text-decoration: none;
+  border-bottom: 1px solid gray;
 }
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #616668;
+  color: $pink;
   font-size: 14px;
+  text-decoration: none;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: gray;
   text-decoration: none;
 }
 
