@@ -1,5 +1,6 @@
 #main-banner {
-  background-image: image-url("couv.png");
+  background-image: url("couv.png");
+  background-size: cover;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -9,10 +10,6 @@
     margin-top: 1.5em;
   }
 }
-
-#main-banner img {
-    height: 80vh;
-  }
 
 
 .main-banner-description {
