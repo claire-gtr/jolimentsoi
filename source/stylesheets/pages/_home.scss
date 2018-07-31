@@ -1,15 +1,23 @@
 #main-banner {
-  background-image: url("couv.png");
+    background-image: url("couv.jpg");
   background-size: cover;
   height: 80vh;
+  width: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  z-index: 1;
   p {
     margin-top: 1.5em;
   }
 }
+
+// .main-banner-image {
+
+//   height: 80vh;
+
+// }
 
 
 .main-banner-description {
@@ -17,6 +25,7 @@
   font-size: 30px;
   letter-spacing: 3px;
   color: white;
+  height: 30vh;
 }
 
 #second-banner {
