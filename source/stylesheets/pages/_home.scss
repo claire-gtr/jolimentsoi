@@ -1,23 +1,32 @@
-#main-banner {
-    background-image: url("couv.jpg");
-  background-size: cover;
-  height: 80vh;
-  width: 50vh;
+// #banner {
+//   background-image: url("couv.jpg");
+//   background-size: cover;
+//   height: 80vh;
+//   width: 50vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-around;
+//   text-align: center;
+//   p {
+//     margin-top: 1.5em;
+//   }
+// }
+
+.banner {
+  text-align: center;
+  height: 90vh;
+  background-size: cover !important;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  z-index: 1;
-  p {
-    margin-top: 1.5em;
-  }
+  justify-content: center;
+}
+.banner p {
+  font-size: 25px;
+  color: $pink;
+  margin-bottom: 30px;
 }
 
-// .main-banner-image {
 
-//   height: 80vh;
-
-// }
 
 
 .main-banner-description {
