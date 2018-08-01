@@ -1,25 +1,23 @@
-#main-banner {
-  background-image: image-url("couv.png");
-  height: 80vh;
+.banner {
+  height: 90vh;
+  background-size: cover !important;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
 }
-
-#main-banner img {
-    height: 80vh;
+.banner p {
+  font-size: 25px;
+  color: $pink;
+  margin-bottom: 80px;
   }
-
 
 .main-banner-description {
   font-weight: lighter;
   font-size: 30px;
   letter-spacing: 3px;
   color: white;
+  height: 30vh;
 }
 
 #second-banner {
