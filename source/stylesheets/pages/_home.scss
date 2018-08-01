@@ -1,33 +1,16 @@
-// #banner {
-//   background-image: url("couv.jpg");
-//   background-size: cover;
-//   height: 80vh;
-//   width: 50vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-around;
-//   text-align: center;
-//   p {
-//     margin-top: 1.5em;
-//   }
-// }
-
 .banner {
-  text-align: center;
   height: 90vh;
   background-size: cover !important;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  text-align: center;
 }
 .banner p {
   font-size: 25px;
   color: $pink;
-  margin-bottom: 30px;
-}
-
-
-
+  margin-bottom: 80px;
+  }
 
 .main-banner-description {
   font-weight: lighter;
