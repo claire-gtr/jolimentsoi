@@ -5,11 +5,14 @@
   align-items: center;
   justify-content: flex-end;
   text-align: center;
+
 }
 .banner p {
   font-size: 25px;
   color: $pink;
   margin-bottom: 80px;
+  max-width: 600px;
+  padding-right: 150px;
   }
 
 .main-banner-description {
@@ -69,8 +72,9 @@
 }
 
 .card-image img {
-  height: 150px;
+  height: 200px;
   border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(10, 0, 0, 0.2);
 }
 
 .card-title {
