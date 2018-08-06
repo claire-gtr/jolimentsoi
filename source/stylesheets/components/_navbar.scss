@@ -1,7 +1,6 @@
 /* Main navbar */
 .navbar-wagon {
-  background-color: light-gray;
-  transition: all 0.3s ease;
+  background-color: transparent;
   height: 70px;
   padding: 0px 30px;
   display: flex;
@@ -13,8 +12,10 @@
   text-decoration: none;
 }
 
-.navbar-wagon.scrolled {
-  background-color: white;
+
+.navbar-fixed-top.scrolled {
+  transition: 0.3s;
+  background-color: #fff !important;
 }
 
 /* Logo */
