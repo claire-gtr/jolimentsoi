@@ -71,7 +71,7 @@
   margin: 10px;
   position: relative;
   border-radius: 5px;
-  height: 380px;
+  height: 450px;
 }
 
 .card-image img {
@@ -86,8 +86,7 @@
       font-weight: lighter;
       letter-spacing: 4px;
     }
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 20px;
 }
 
 .card-description {
@@ -95,9 +94,13 @@
   font-weight: lighter;
 }
 
+.card-content {
+  font-size: 12px;
+}
+
 #fourth-banner {
   background-color: #dedede;
-  height: 150vh;
+  max-height: 2500px;
   padding : 10px;
 }
 
