@@ -8,7 +8,7 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Joliment Soi | Esthéticienne à domicile Epilation Soins</title>
     <meta name="description" content="Joliment Soi - Ethéticienne à domicile dans la région d'Auray, sur rendez-vous. Epilation, soins, massages, maquillage, manucure, maquillage de mariage.">
-    <link href="stylesheets/application-f9754a68.css" rel="stylesheet" />
+    <link href="stylesheets/application-1bec8fda.css" rel="stylesheet" />
     <script src="javascripts/application-2822fc19.js"></script>
     <link href="images/images/favicon.png" rel="icon" type="image/png" />
   </head>
@@ -59,10 +59,53 @@
   </div>
 </div>
 
-
+<!--
 <div class="banner" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1533134622/couv.jpg');">
       <div class="banner-content">
       </div>
+</div> -->
+
+<!--Here's our main wrapper.
+Since our carousel items get their size from their parent,
+we have to specify its height.-->
+<div class="carousel-wrapper" style="height: 550px;">
+  <!--The carousel uses regular links to cycle through each item.
+  The links actually target these display: none; spans so our page doesn't
+  jump like it normally would when using jump links.-->
+  <span id="target-item-1"></span>
+  <span id="target-item-2"></span>
+  <span id="target-item-3"></span>
+  <!--Here are our carousel items.
+  Each has a 'carousel-item' class, which we use for shared styling
+  and an item-# class, which we use to control its opacity
+  depending on which target-item-# is currently targeted-->
+  <div class="carousel-item item-1" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1533134622/couv.jpg');">
+    <!--We can add any content in here, just make sure that
+    your .carousel-wrapper is big enough to hold all the content.-->
+    <h2>Joliment Soi</h2>
+    <p>Émilie, esthéticienne à domicile vous propose ses services dans les régions de Vannes, Auray et Carnac.</p>
+    <!--Here are the links that control the carousel! Make sure
+    the href of each one is pointing to the right target-item-#
+    so that the carousel cycles in sequence.-->
+    <a class="arrow arrow-prev" href="#target-item-3"></a>
+    <a class="arrow arrow-next" href="#target-item-2"></a>
+  </div>
+  <!--And here are a couple more carousel items so that
+  we have some content to scroll to. Notice the 'light' class?
+  Royal blue is a pretty dark background color, so we'll add a CSS
+  rule to make the text white if a carousel item has this class-->
+  <div class="carousel-item item-2 light" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1533134622/couv.jpg');">
+    <h2>Joliment Soi</h2>
+    <p>Émilie, esthéticienne à domicile vous propose ses services dans les régions de Vannes, Auray et Carnac.</p>
+    <a class="arrow arrow-prev" href="#target-item-1"></a>
+    <a class="arrow arrow-next" href="#target-item-3"></a>
+  </div>
+  <div class="carousel-item item-3" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1533134622/couv.jpg');">
+    <h2>Joliment Soi</h2>
+    <p>Émilie, esthéticienne à domicile vous propose ses services dans les régions de Vannes, Auray et Carnac.</p>
+    <a class="arrow arrow-prev" href="#target-item-2"></a>
+    <a class="arrow arrow-next" href="#target-item-1"></a>
+  </div>
 </div>
 
 
@@ -257,6 +300,7 @@
     <div class="col-xs-12 col-sm-6 photo-emilie">
       <img src="images/portrait-dda5535b.png" class="photo-emilie" alt="Portrait" />
     </div>
+    <br>
     <div class="col-xs-12 col-sm-6">
       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
@@ -268,6 +312,7 @@
    <div class="row title-banner text-center">
     Suivez-moi sur les réseaux !
     </div>
+    <br>
     <div class="row sixth-banner-links">
       <div class="col-xs-1 col-xs-offset-3 col-md-1 col-md-offset-5">
         <a href="https://www.instagram.com/jolimentsoi/", target="_blank"><i class="fa fa-instagram"></i></a>
