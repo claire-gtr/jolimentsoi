@@ -204,12 +204,14 @@
       font-size: 36px;
       font-weight: lighter;
       letter-spacing: 4px;
+      color: $pink;
     }
   padding: 20px;
 }
 
 .card-description {
   font-size: 15px;
+  color: grey;
   font-weight: lighter;
 }
 
@@ -219,6 +221,7 @@ ul {
 
 .card-content {
   font-size: 12px;
+  color: grey;
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -236,6 +239,9 @@ ul {
 
     p {
       color: grey;
+      font-weight: lighter;
+      font-size: 15px;
+      letter-spacing: 2px;
     }
 }
 
