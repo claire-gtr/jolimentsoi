@@ -4,6 +4,14 @@
   position: relative;
   margin-top: 70px;
 
+  h2 {
+    font-size: 35px;
+    letter-spacing: 7px;
+    color: $pink;
+    font-weight: 200;
+    text-align: center;
+  }
+
   /* Our absolutely positioned carousel items span the width and
   height of its parent. We're making them transparent by default so
   that they fade in when we cycle through them using the arrow links. */
@@ -140,7 +148,7 @@
 #second-banner {
   background-color: white;
   color: $pink;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 2px;
   display: flex;
   align-items: center;
@@ -153,18 +161,19 @@
     p {
       padding: 10px;
       color: grey;
-      font-weight: 300;
+      font-weight: 200;
     }
 }
 
 .title-banner {
   font-weight: lighter;
   font-size: 40px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-align: center;
   height: 100px;
   color: $pink;
   margin-top: 30px;
+  font-weight: 100;
 
     }
 
@@ -239,9 +248,9 @@ ul {
 
     p {
       color: grey;
-      font-weight: lighter;
+      font-weight: 200;
       font-size: 15px;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
     }
 }
 
