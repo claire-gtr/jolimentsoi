@@ -22,7 +22,7 @@
 
 .navbar-logo {
   a {
-  color: $pink;
+  color: gray;
   margin: 20px;
   }
   a:hover {
@@ -44,9 +44,9 @@
 .navbar-wagon-item {
   cursor: pointer;
   padding: 0 20px;
-  letter-spacing: 4px;
-  font-size: 35px;
-  font-weight: 400;
+  letter-spacing: 7px;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .navbar-tabs {
@@ -59,12 +59,12 @@
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: $pink;
+  color: gray;
   font-size: 14px;
   text-decoration: none;
 }
 .navbar-wagon-link:hover {
-  color: gray;
+  color: black;
   text-decoration: none;
 }
 
