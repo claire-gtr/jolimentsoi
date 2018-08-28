@@ -8,7 +8,7 @@
     font-size: 35px;
     letter-spacing: 7px;
     color: $pink;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
   }
 
@@ -185,6 +185,7 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -269,19 +270,27 @@
 
 #sixth-banner {
   background-color: white;
-  padding: 50px 20px 50px 20px;
+  padding: 20px;
     i {
-      font-size: 50px;
+      font-size: 60px;
+      padding-top: 0px;
+      margin-top: 0px;
     }
 }
 
 .sixth-banner-links {
   height: 70px;
-  padding: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+
+
 .sixth-banner-links a {
   color: black;
-  opacity: 0.15;
+  opacity: 0.45;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
